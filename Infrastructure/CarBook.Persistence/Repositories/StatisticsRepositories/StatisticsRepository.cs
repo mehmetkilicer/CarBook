@@ -51,7 +51,6 @@ namespace CarBook.Persistence.Repositories.StatisticsRepositories
 
 		public decimal GetAvgRentPriceForDaily()
 		{
-			//Select Avg(Amount) from CarPricings where PricingID=(Select PricingID From Pricings Where Name='Günlük')
 			int id = _context.Pricings.Where(y => y.Name == "Günlük").Select(z => z.PricingID).FirstOrDefault();
 			var value = _context.CarPricings.Where(w => w.PricingID == id).Average(x => x.Amount);
 			return value;

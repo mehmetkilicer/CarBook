@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="2024 © BookCar | Tüm Hakları Saklıdır." xml:space="preserve">
+    <value>2024 © BookCar | All Rights Reserved.</value>
+  </data>
+  <data name="Aktif Araçlar" xml:space="preserve">
+    <value>Active Cars</value>
+  </data>
+  <data name="Alt Adres" xml:space="preserve">
+    <value>Footer Address</value>
+  </data>
+  <data name="Araba Özellikleri" xml:space="preserve">
+    <value>Car Features</value>
+  </data>
+  <data name="Araba İşlemleri" xml:space="preserve">
+    <value>Car Operations</value>
+  </data>
+  <data name="Araç Kiralama Ücretleri" xml:space="preserve">
+    <value>Car Rental Prices</value>
+  </data>
+  <data name="Araç Kiralamanın Avantajları" xml:space="preserve">
+    <value>Advantages of Renting a Car</value>
+  </data>
+  <data name="Araç Kiralarken Dikkat Edilmesi Gerekenler" xml:space="preserve">
+    <value>Things to Consider When Renting a Car</value>
+  </data>
+  <data name="Araç Marka Sayılar" xml:space="preserve">
+    <value>Number of Cars by Brand</value>
+  </data>
+  <data name="Araç Sayısı" xml:space="preserve">
+    <value>Number of Cars</value>
+  </data>
+  <data name="Banner Alanı" xml:space="preserve">
+    <value>Banner Area</value>
+  </data>
+  <data name="Bazı araçların günlük - haftalık - aylık kiralama fiyatları." xml:space="preserve">
+    <value>Daily - Weekly - Monthly rental prices for some cars.</value>
+  </data>
+  <data name="Blog Başlığı" xml:space="preserve">
+    <value>Blog Title</value>
+  </data>
+  <data name="Blog Kategorileri" xml:space="preserve">
+    <value>Blog Categories</value>
+  </data>
+  <data name="Blog İşlemleri" xml:space="preserve">
+    <value>Blog Operations</value>
+  </data>
+  <data name="Blogu Aç" xml:space="preserve">
+    <value>Open Blog</value>
+  </data>
+  <data name="BookCar Yönetim Paneli" xml:space="preserve">
+    <value>BookCar Admin</value>
+  </data>
+  <data name="Bugünkü Kazanç" xml:space="preserve">
+    <value>Today's Earnings</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Design &amp; Develop by Mehmet Kılıcer" xml:space="preserve">
+    <value>Design &amp; Develop by Mehmet Kılıcer </value>
+  </data>
+  <data name="Günlük Kiralama" xml:space="preserve">
+    <value>Daily Rental</value>
+  </data>
+  <data name="Hakkımızda" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="Hizmetler" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="Kiralama Ücreti" xml:space="preserve">
+    <value>Rental Fee</value>
+  </data>
+  <data name="Kış Tatillerinde Araç Kiralama Tavsiyeleri" xml:space="preserve">
+    <value>Car Rental Tips for Winter Holidays</value>
+  </data>
+  <data name="Lokasyon Sayısı" xml:space="preserve">
+    <value>Number of Locations</value>
+  </data>
+  <data name="Lokasyon Verileri" xml:space="preserve">
+    <value>Location Data</value>
+  </data>
+  <data name="Lokasyonlar" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="Marka Sayısı" xml:space="preserve">
+    <value>Number of Brands</value>
+  </data>
+  <data name="Markalar" xml:space="preserve">
+    <value>Brands</value>
+  </data>
+  <data name="Menü" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="Mevcut Lokasyonlar" xml:space="preserve">
+    <value>Available Locations</value>
+  </data>
+  <data name="Müsait Araç Sayısı" xml:space="preserve">
+    <value>Number of Available Cars</value>
+  </data>
+  <data name="Referanslar" xml:space="preserve">
+    <value>Testimonial</value>
+  </data>
+  <data name="Siteye Git" xml:space="preserve">
+    <value>Go to Site</value>
+  </data>
+  <data name="Son 1 Aylık Ciro" xml:space="preserve">
+    <value>Revenue in the Last 1 Month</value>
+  </data>
+  <data name="Son Bloglar" xml:space="preserve">
+    <value>Recent Blogs</value>
+  </data>
+  <data name="Sosyal Medya" xml:space="preserve">
+    <value>Social Media</value>
+  </data>
+  <data name="Toplam Araç Sayısı" xml:space="preserve">
+    <value>Total Number of Cars</value>
+  </data>
+  <data name="Toplam Marka" xml:space="preserve">
+    <value>Total Brands</value>
+  </data>
+  <data name="Uzun Yolculuklar İçin Kiralama" xml:space="preserve">
+    <value>Renting for Long Journeys</value>
+  </data>
+  <data name="Yazar" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Yazar İşlemleri" xml:space="preserve">
+    <value>Author Operations</value>
+  </data>
+  <data name="Yazarlarımızın Son 5 Blog Listesi" xml:space="preserve">
+    <value>List of the Latest 5 Blogs from Our Authors</value>
+  </data>
+  <data name="Yıllık Kiralama Sayıları" xml:space="preserve">
+    <value>Annual Rental Numbers</value>
+  </data>
+  <data name="Çıkış Yap" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Ödeme Türleri" xml:space="preserve">
+    <value>Payment Types</value>
+  </data>
+  <data name="İletişim" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="İstatistikler" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="Şehir İçinde Uygun Araç Seçimi Nasıl Yapılır?" xml:space="preserve">
+    <value>How to Choose the Right Car for the City</value>
+  </data>
+</root>

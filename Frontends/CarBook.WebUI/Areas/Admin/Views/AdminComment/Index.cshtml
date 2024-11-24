@@ -1,10 +1,11 @@
-﻿@model List<ResultCommentDto>
-@{
+﻿@* @model List<ResultCommentDto>
+ *@@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/AdminLayout/Index.cshtml";
     int count = 0;
 
 }
+
 
 
 
@@ -18,7 +19,7 @@
                         <p class="card-subtitle mb-4">
                             Bloglarla ilgili o bloga yapılmış olan yorum listesini bu sayfadan görebilirsiniz. İlgili yorumları kaldırabilir ya da tekrar aktif hale getirebilirsiniz. Bunun için yorumların altında yer alan butonları kullanabilirsiniz.
                         </p>
-                        @foreach(var item in Model)
+             @*            @foreach(var item in Model)
                         {
                             count++;
                             <div class="col-md-12">
@@ -33,7 +34,7 @@
                                     </div>
                                 </div>
                             </div>
-                        }
+                        } *@
                     </div>
                 </div>
             </div>

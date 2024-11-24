@@ -1,4 +1,6 @@
-﻿@{
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+
+@{
     Layout = null;
 }
 
@@ -8,8 +10,50 @@
 <body>
     <div id="layout-wrapper">
         @await Html.PartialAsync("/Views/AdminLayout/AdminNavbarPartial.cshtml")
-        @await Html.PartialAsync("/Views/AdminLayout/AdminSidebarPartial.cshtml")
-        <div class="main-content">
+        ﻿<div class="vertical-menu">
+
+            <div data-simplebar class="h-100">
+
+                <div class="navbar-brand-box">
+                    <a href="index.html" class="logo">
+                        <i class="mdi mdi-alpha-x-circle"></i>
+                        <span>
+                            BookCar Admin
+                        </span>
+                    </a>
+                </div>
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li class="menu-title">@localizer["Menü"]</li>
+
+                        <li><a href="/Admin/AdminDashboard/Index/" class="waves-effect"><i class="feather-airplay"></i><span>@localizer["Dashboard"]</span></a></li>
+                        <li><a href="/Admin/AdminStatistics/Index" class="waves-effect"><i class="fas fa-chart-pie"></i><span>@localizer["İstatistikler"]</span></a></li>
+                        <li><a href="/Default/Index/" class="waves-effect"><i class="fas fa-home"></i><span>@localizer["Siteye Git"]</span></a></li>
+                        <li><a href="/AdminCar/Index/" class="waves-effect"><i class="fas fa-car"></i><span>@localizer["Araba İşlemleri"]</span></a></li>
+                        <li><a href="/AdminFeature/Index/" class="waves-effect"><i class="fas fa-bus"></i><span>@localizer["Araba Özellikleri"]</span></a></li>
+                        <li><a href="/AdminBrand/Index/" class="waves-effect"><i class="fas fa-business-time"></i><span>@localizer["Markalar"]</span></a></li>
+                        <li><a href="/Admin/AdminBanner/Index/" class="waves-effect"><i class="fas fa-broom"></i><span>@localizer["Banner Alanı"]</span></a></li>
+                        <li><a href="/Admin/AdminAbout/Index/" class="waves-effect"><i class="fas fa-info"></i><span>@localizer["Hakkımızda"]</span></a></li>
+                        <li><a href="/Admin/AdminAuthor/Index/" class="waves-effect"><i class="fas fa-pencil-alt"></i><span>@localizer["Yazar İşlemleri"]</span></a></li>
+                        <li><a href="/Admin/AdminCategory/Index/" class="waves-effect"><i class="fas fa-certificate"></i><span>@localizer["Blog Kategorileri"]</span></a></li>
+                        <li><a href="/Admin/AdminBlog/Index/" class="waves-effect"><i class="fas fa-blog"></i><span>@localizer["Blog İşlemleri"]</span></a></li>
+                        <li><a href="/Admin/AdminPricing/Index/" class="waves-effect"><i class="fas fa-money-bill-alt"></i><span>@localizer["Ödeme Türleri"]</span></a></li>
+                        <li><a href="/Admin/AdminContact/Index/" class="waves-effect"><i class="fas fa-phone"></i><span>@localizer["İletişim"]</span></a></li>
+                        <li><a href="/Admin/AdminFooterAddress/Index/" class="waves-effect"><i class="fas fa-map-marked-alt"></i><span>@localizer["Alt Adres"]</span></a></li>
+                        <li><a href="/Admin/AdminLocation/Index/" class="waves-effect"><i class="fas fa-map-marker-alt"></i><span>@localizer["Lokasyonlar"]</span></a></li>
+                        <li><a href="/Admin/AdminService/Index/" class="waves-effect"><i class="fas fa-anchor"></i><span>@localizer["Hizmetler"]</span></a></li>
+                        <li><a href="/Admin/AdminSocialMedia/Index/" class="waves-effect"><i class="fas fa-tv"></i><span>@localizer["Sosyal Medya"]</span></a></li>
+                        <li><a href="/Admin/AdminTestimonial/Index/" class="waves-effect"><i class="fas fa-people-carry"></i><span>@localizer["Referanslar"]</span></a></li>
+                        <li><a href="/Login/Logout" class="waves-effect"><i class="fas fa-window-close"></i><span>@localizer["Çıkış Yap"]</span></a></li>
+
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>        <div class="main-content">
             @RenderBody()
             @await Html.PartialAsync("/Views/AdminLayout/AdminFooterPartial.cshtml")
         </div>
